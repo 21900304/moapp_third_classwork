@@ -10,9 +10,9 @@ note: "" is mandatory. ex:) java functions/Main "{with {x 3} {with {f {fun {y} {
 
 
 ## Getting Started
-Problem 2:
-Solved by myself: No (Referred to external sources).
-Time taken: About 1 week.
+*Problem 2:
+*Solved by myself: No (Referred to external sources).
+*Time taken: About 1 week.
 
 [constract]
 1. interp: FAE? DefrdSub? -> FAE-Value.
