@@ -1,6 +1,11 @@
 # PLT Homework3 task2
 
-A new Flutter project.
+## Compile and Run
+
+### In Terminal and cmd
+Move to src diretory, then Compile: > javac functions/Main.java , next Run: > java functions/Main ""
+note: "" is mandatory.
+
 
 ## Getting Started
 Problem 2:
