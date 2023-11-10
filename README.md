@@ -1,16 +1,18 @@
-# thrid_classwork
+# PLT Homework3 task2
 
 A new Flutter project.
 
 ## Getting Started
+Problem 2:
+Solved by myself: No (Received assistance from a TA and referred to external sources).
+Time taken: About 1 week.
 
-This project is a starting point for a Flutter application.
+[constract]
+interp: FAE? DefrdSub? -> FAE-Value
+parse : sexp -> FAE
 
-A few resources to get you started if this is your first Flutter project:
+[purpose] 
+To interpret an FAE expression within a given deferred substitution context and
+To parse a given S-expression into an FAE expression.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[tests]
