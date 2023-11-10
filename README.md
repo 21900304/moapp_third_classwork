@@ -8,8 +8,8 @@ Solved by myself: No (Received assistance from a TA and referred to external sou
 Time taken: About 1 week.
 
 [constract]
-interp: FAE? DefrdSub? -> FAE-Value
-parse : sexp -> FAE
+interp: FAE? DefrdSub? -> FAE-Value.
+parse : sexp -> FAE.
 
 [purpose] 
 To interpret an FAE expression within a given deferred substitution context and
