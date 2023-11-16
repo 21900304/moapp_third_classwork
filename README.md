@@ -10,18 +10,6 @@ note: "" is mandatory. ex:) java functions/Main "{with {x 3} {with {f {fun {y} {
 
 
 ## Getting Started
-* Problem 2:
-* Solved by myself: No (Referred to external sources).
-* Time taken: About 1 week.
-
-[constract]
-1. interp: FAE? DefrdSub? -> FAE-Value.
-2. parse : sexp -> FAE.
-
-[purpose] 
-1. To interpret an FAE expression within a given deferred substitution context and
-2. To parse a given S-expression into an FAE expression.
-
 [tests]
 1. input: "{with {x 8} {with {f {fun {y} {+ x y}}} {with {x 7} {f 5}}}}"   , output: (numV 13)
 2. input: -p "{with {x 8} {with {f {fun {y} {+ x y}}} {with {x 7} {f 5}}}}"  , output: (app (fun 'x (app (fun 'f (app (fun 'x (app (id 'f) (num 5))) (num 7))) (fun 'y (add (id 'x) (id 'y))))) (num 8))
